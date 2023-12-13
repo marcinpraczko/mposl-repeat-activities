@@ -1,0 +1,18 @@
+---
+
+session_name: MPOSL-Repeat-Activities
+start_directory: "${PWD}"
+windows:
+  - window_name: Main
+    focus: "True"
+    layout: main-vertical
+    options:
+      automatic-rename: 'off'
+    shell_command_before:
+      - clear
+    panes:
+      - focus: "True"
+        shell_command:
+          - clear
+      - shell_command:
+          - emacs -nw --eval '(setq inhibit-startup-screen t)' -fs "${PWD}/.mposl/repeat-activities/00-activity-template.org"
