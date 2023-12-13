@@ -1,0 +1,22 @@
+* Configuration of this file                                       :noexport:
+
+This sections should be used for all configuration
+
+* Activities
+
+This section should be related with activities which needs to be repeated.
+
+** [0%] [0/2] Testing mposl-repeat-activities during development
+
+- [ ] Load tmuxp sessions (from current folder for now)
+- [ ] Run fzf on main window
+  - [ ] Test create `new activity` based on current template - add date (timestamp)?
+  - [ ] Test if FZF refreshed list
+
+** [0%] [0/1] Testing mposl-repeat-activities during development       :docs:
+
+This is just example for now how to work with this activity.
+As I have limited time to work on this project - probably will be quick and dirty.
+So above list should be used during development.
+
+- [ ] Change this file for some generic - once main goal will be developped.

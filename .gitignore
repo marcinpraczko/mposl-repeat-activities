@@ -1,3 +1,8 @@
+# ==== Added custom configuration for this project ====
+*~
+
+
+# ==== Generated from GITHUB during creation ====
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
